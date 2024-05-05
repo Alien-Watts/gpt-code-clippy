@@ -82,7 +82,7 @@ tensorflow-estimator==2.5.0rc0
 termcolor==1.1.0
 tokenizers==0.10.3
 toolz==0.11.1
-tqdm==4.61.2
+tqdm==4.66.3
 transformers @ git+https://github.com/huggingface/transformers@534f6eb9f1f8910a4912ccccd79f1f974c625168
 typing-extensions==3.7.4.3
 ujson==4.0.2
