@@ -3,7 +3,7 @@ asn1crypto==0.24.0
 astunparse==1.6.3
 cached-property==1.5.2
 cachetools==4.2.2
-certifi==2020.12.5
+certifi==2023.7.22
 chardet==4.0.0
 chex==0.0.8
 click==8.0.1
@@ -24,11 +24,11 @@ gdown==3.13.0
 google-auth==1.30.0
 google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
-grpcio==1.34.1
+grpcio==1.53.2
 h5py==3.1.0
-huggingface-hub==0.0.12
+huggingface-hub==0.13.4
 -e git+https://github.com/openai/human-eval.git@77b90b8f70e2553ba720c3d24156acfd28104ec4#egg=human_eval
-idna==2.6
+idna==3.7
 importlib-metadata==4.0.1
 jax==0.2.17
 jaxlib==0.1.69
@@ -44,16 +44,16 @@ Markdown==3.3.4
 matplotlib==3.3.4
 msgpack==1.0.2
 multiprocess==0.70.12.2
-numpy==1.19.5
+numpy==1.22.2
 oauthlib==3.1.0
 opt-einsum==3.3.0
 optax==0.0.9
 packaging==21.0
 pandas==1.1.5
-Pillow==8.3.1
+Pillow==10.3.0
 portalocker==2.0.0
-protobuf==3.17.0
-pyarrow==4.0.1
+protobuf==3.18.3
+pyarrow==14.0.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycrypto==2.6.1
@@ -66,12 +66,12 @@ pytz==2021.1
 pyxdg==0.25
 PyYAML==5.4.1
 regex==2021.7.6
-requests==2.25.1
+requests==2.32.2
 requests-oauthlib==1.3.0
 rsa==4.7.2
 sacrebleu==1.5.1
 sacremoses==0.0.45
-scipy==1.5.4
+scipy==1.10.0rc1
 SecretStorage==2.3.1
 six==1.15.0
 tensorboard==2.5.0
@@ -82,13 +82,15 @@ tensorflow-estimator==2.5.0rc0
 termcolor==1.1.0
 tokenizers==0.10.3
 toolz==0.11.1
-tqdm==4.61.2
+tqdm==4.66.3
 transformers @ git+https://github.com/huggingface/transformers@534f6eb9f1f8910a4912ccccd79f1f974c625168
 typing-extensions==3.7.4.3
-ujson==4.0.2
-urllib3==1.26.4
-Werkzeug==2.0.0
+ujson==5.4.0
+urllib3==1.26.19
+Werkzeug==3.0.3
 wrapt==1.12.1
 xxhash==2.0.2
-zipp==3.4.1
+zipp==3.19.1
 zstandard==0.15.2
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
